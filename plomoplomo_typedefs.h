@@ -3,7 +3,7 @@
     2018 - plomoplomo
 */
 
-#ifnedf PLOMOPLOMO_TYPEDEFS_H
+#ifndef PLOMOPLOMO_TYPEDEFS_H
 #define PLOMOPLOMO_TYPEDEFS_H
 
 typedef enum {ERROR = 0, SUCCESS = !ERROR} ErrorStatus;
